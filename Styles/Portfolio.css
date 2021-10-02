@@ -10,17 +10,16 @@ body {
     font-family: var(--default-font-family);
 }
 
+
 .main {
     background-image: url("Images/Waves.jpg");
-    background-size: 1500px 900px;
+    background-size: 1500px 940px;
     display: block;
     margin-top: 0px;
-    margin-bottom: 596px;
+  
     text-align: center;
     color: white;
 }
-
-
 
 .main h1 {
     font-family: var(--heading-font-family);
@@ -43,13 +42,13 @@ body {
     padding-top: 276px;
     }
 
-.main p{
+.main p {
     font-family: var(--default-font-family);
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
     text-align: center;
-    padding-bottom: 48px;
+      
     }
 
 .btn-branding {
@@ -64,5 +63,37 @@ body {
     background: white;
     color: black;
     border-radius: 50px;
+    margin-top: 40px;
     margin-bottom: 301px;
+}
+
+.gallery {
+    background: #1B1B1B;
+}
+
+.container {
+    display: block;
+    margin: 0 auto;
+}
+.beach-1 {
+    width: 350px;
+}
+
+@media (max-width: 576px) {
+  .main h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .main p {
+      font-weight: normal;
+      font-size: 14px;
+      padding-bottom: 10px;
+  }
+
+  .col-sm-4 {
+      padding-bottom: 10px;
+  }
 }
