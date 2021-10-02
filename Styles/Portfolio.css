@@ -1,20 +1,68 @@
-h1 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 72px;
-    font-weight: 700;
-        text-align: center;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
+:root {
+    --branding-color: #E5E5E5;
+    --heading-font-family: 'Roboto', sans-serif;
+    --default-font-family: 'Roboto', sans-serif;
 }
 
-p{
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    text-align: center;
-}
 
 body {
     background-color:white;
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--default-font-family);
+}
+
+.main {
+    background-image: url("Images/Waves.jpg");
+    background-size: 1500px 900px;
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 596px;
+    text-align: center;
+    color: white;
+}
+
+
+
+.main h1 {
+    font-family: var(--heading-font-family);
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84.38px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 25px;
+}
+.main h2 {
+    font-family: var(--heading-font-family);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 276px;
+    }
+
+.main p{
+    font-family: var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    padding-bottom: 48px;
+    }
+
+.btn-branding {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17.07px;
+    padding: 18px 30px;
+    width: 200px;
+    height: 53px;
+    background: white;
+    color: black;
+    border-radius: 50px;
+    margin-bottom: 301px;
 }
