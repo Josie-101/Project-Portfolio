@@ -16,7 +16,7 @@ body {
     background-size: 1500px 940px;
     display: block;
     margin-top: 0px;
-  
+    padding-bottom: 300px;
     text-align: center;
     color: white;
 }
@@ -30,7 +30,48 @@ body {
     letter-spacing: 0.1em;
     text-transform: uppercase;
     padding: 25px;
+    }
+
+h3 {
+    font-family: var(--heading-font-family);
+    color: white;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 75px;
+    text-align: left;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    }
+h4 {
+    font-family: var(--heading-font-family);
+    color: #F65282;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.41px;
+    text-transform: uppercase;
+    text-align: center;
 }
+
+h5 {
+    font-family: var(--heading-font-family);
+    color: #F65282;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.09px;
+    text-transform: uppercase;
+    text-align: left;
+    margin-top: 60px;
+    }
+
+    h6 {
+    font-family: var(--default-font-family);
+    color: white;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+   }
+
 .main h2 {
     font-family: var(--heading-font-family);
     font-size: 24px;
@@ -48,8 +89,19 @@ body {
     font-weight: 400;
     line-height: 30px;
     text-align: center;
-      
     }
+
+.about p {
+    font-family: var(--default-font-family);
+    color: white;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 560px;
+    height: 90px;
+    }
+
 
 .btn-branding {
     text-transform: uppercase;
@@ -64,19 +116,40 @@ body {
     color: black;
     border-radius: 50px;
     margin-top: 40px;
-    margin-bottom: 301px;
+    
 }
 
 .gallery {
-    background: #1B1B1B;
+    background:#202020;
+    padding-top: 0px;
+    padding-bottom: 100px;
 }
 
+.samples {
+  background: #202020;
+  padding-top: 0px;
+  margin-top: 0px;  
+  padding-bottom: 100px;
+}
+
+.about {
+    background: #202020;
+    padding-bottom: 60px;
+}
 .container {
     display: block;
     margin: 0 auto;
 }
 .beach-1 {
     width: 350px;
+}
+
+.primary-beach-pic {
+    height: 700px;
+    width: 560px;
+  display: flex;
+  margin-top: 70px;
+  margin-bottom: 10px;
 }
 
 @media (max-width: 576px) {
@@ -96,4 +169,127 @@ body {
   .col-sm-4 {
       padding-bottom: 10px;
   }
+}
+
+.icons {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.4px;
+    margin-right: 30px;
+    letter-spacing: 30px;
+    padding-bottom: 10px;
+}
+
+.footer-icons {
+    color: white;
+    margin-right: 30px;
+    letter-spacing: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 18.4px;
+    margin-right: 30px;
+    letter-spacing: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 85px;
+}
+
+.footer {
+    background-color: #282323;
+    height: 100px;
+   
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.name {
+    color: white;
+    text-decoration: none;
+}
+
+.name:hover {
+    color: white;
+}
+
+.camera {
+    display: flex;
+    background: #2D2727;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    width: 423px;
+    height: 80.57px;
+}
+
+.nav-item {
+    padding: 0 10px;
+}
+
+.navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+    background-color: #2D2727;
+    justify-items: right;
+}
+
+.gallery-header {
+    text-align: center;
+    font-family: var(--default-font-family);
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84.38px;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.header {
+    background:#202020;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.contact-header {
+text-align: center;
+    font-family: var(--default-font-family);
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84.38px;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.contact-page {
+     background:#202020;
+}
+
+.contact-details {
+    padding-bottom: 100px;
+}
+
+.contact-info {
+    font-family: (--default-font-family);
+    color: white;
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.email-link {
+    text-decoration: none;
+    color: white;
 }
