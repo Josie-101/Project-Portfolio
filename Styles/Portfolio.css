@@ -60,7 +60,8 @@ h5 {
     line-height: 21.09px;
     text-transform: uppercase;
     text-align: left;
-    margin-top: 60px;
+    margin-top: 80px;
+    margin-bottom: 25px;
     }
 
     h6 {
@@ -98,7 +99,7 @@ h5 {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    width: 560px;
+    
     height: 90px;
     }
 
@@ -227,7 +228,7 @@ h5 {
     justify-content: center;
     align-items: center;
     border-radius: 4px;
-    width: 423px;
+    width: 400px;
     height: 80.57px;
 }
 
