@@ -294,3 +294,16 @@ text-align: center;
     text-decoration: none;
     color: white;
 }
+
+.email-link:hover {
+    color: white;
+}
+
+.github-link {
+    text-decoration: none;
+    color: white;
+}
+
+.github-link:hover {
+    color: white;
+}
