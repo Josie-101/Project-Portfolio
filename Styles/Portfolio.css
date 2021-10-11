@@ -167,6 +167,13 @@ h5 {
     padding-top: 0px;
     padding-bottom: 0px;
   }
+
+  @media (max-width: 576px) {
+  .camera {
+    padding: 5px;
+    width: 100px;
+    height: 80.57px;
+}
 }
 
   .main p {
