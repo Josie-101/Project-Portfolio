@@ -159,6 +159,7 @@ h5 {
     padding-right: 5px;
     text-align: center;
   }
+}
 
   @media (max-width: 576px) {
   .main h1 {
@@ -167,6 +168,7 @@ h5 {
     padding-top: 10px;
     padding-bottom: 10px;
   }
+
 
   .main p {
       font-weight: normal;
@@ -313,4 +315,5 @@ text-align: center;
 
 .github-link:hover {
     color: white;
+    text-decoration: none;
 }
