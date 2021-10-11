@@ -157,6 +157,7 @@ h5 {
   .about-text {
     padding-left: 5px;
     padding-right: 5px;
+    padding-bottom: 10px;
     text-align: center;
   }
 
@@ -239,11 +240,11 @@ h5 {
 .camera {
     display: flex;
     background: #2D2727;
-    padding: 20px;
+    padding: 10px;
     justify-content: center;
     align-items: center;
     border-radius: 4px;
-    width: 350px;
+    width: 300px;
     height: 80.57px;
 }
 
